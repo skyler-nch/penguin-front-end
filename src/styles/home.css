@@ -1,0 +1,92 @@
+topbar {
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 100;
+    font-size: 95%;
+}
+
+topbar number {
+    color:rgb(100, 255, 218);
+}
+
+pageheader {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    color:rgb(204,214,246);
+}
+
+pageheader number {
+    font-weight: 100;
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace; 
+    color:rgb(100, 255, 218);
+}
+
+line {
+    content: "";
+    display: block;
+    position: relative;
+    width:300px;
+    height:1px;
+    background-color: rgba(204, 214, 246, 0.176);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 10px 5px;
+    color:rgb(204,214,246);
+}
+
+.box:hover {
+    color: rgb(100, 255, 218);
+}
+
+.smallgreen {
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 100;
+    font-size: 120%;
+    line-height: 60px;
+    color:rgb(100, 255, 218);
+}
+
+.bigheader {
+    font-family: sans-serif; 
+    font-weight: 600;
+    font-size: 500%;
+    line-height: 60px;
+    color:rgb(204,214,246);
+}
+
+.bigsubheader {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 500%;
+    color:rgb(136, 146, 176);
+}
+
+.normalheader {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    color:rgb(204,214,246);
+    line-height: 60px;
+
+}
+
+.normaltext {
+    font-family: 'Courier New', Courier, monospace; ; 
+    font-weight: 100;
+    font-size: 120%;
+    color:rgb(136, 146, 176);
+}
+
+.rotatedtext {
+    font-family: 'Courier New', Courier, monospace; ; 
+    font-weight: 100;
+    font-size: 95%;
+    color:rgb(136, 146, 176);
+    transform:rotate(90deg);
+}
+
