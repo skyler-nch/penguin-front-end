@@ -1,0 +1,12 @@
+services:
+  penguin-fe:
+    restart: always
+    image: penguin-fe:latest
+    ports:
+      - 5000:5000
+    networks:
+      - proxynet
+  
+networks: 
+  proxynet:
+    name: backend_docker_network

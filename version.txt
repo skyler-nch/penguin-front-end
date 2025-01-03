@@ -1,3 +1,8 @@
+v0.1.0.1
+-added license
+-added dockerfiles and compose
+-modified port to 5000
+
 v0.1.0.0
 -Proof of Concept Commit
 -Functionality not done
